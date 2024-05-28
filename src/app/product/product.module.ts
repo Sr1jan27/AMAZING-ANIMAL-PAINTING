@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductListComponent } from './product-list/product-list.component';
-
+import { MatCardModule } from '@angular/material/card';
+import { FlexModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -9,7 +10,9 @@ import { ProductListComponent } from './product-list/product-list.component';
     ProductListComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule,
+    FlexModule
   ]
 })
 export class ProductModule { }
