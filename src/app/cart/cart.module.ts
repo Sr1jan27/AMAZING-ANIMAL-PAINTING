@@ -18,4 +18,7 @@ import { MatButtonModule} from '@angular/material/button';
     MatButtonModule
   ]
 })
-export class CartModule { }
+export class CartModule {
+
+  console.log("Srijan")
+}
