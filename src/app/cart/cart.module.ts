@@ -21,5 +21,4 @@ import { MatButtonModule} from '@angular/material/button';
 export class CartModule {
   // can we import the css and scss both in this file 
   // how to do git push and pull ?
-  // i regret doing all this 
 }
