@@ -3,4 +3,5 @@ export class Product {
     name: string = '';
     price: number = 0;
     image_url: string = '';
+    image_name: string = '';
 }
