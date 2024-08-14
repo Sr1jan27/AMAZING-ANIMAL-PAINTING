@@ -13,6 +13,8 @@ export class CartService {
 
   
   private apiUrl1  = environment.apiUrl + "/cartName";
+  
+  private apiUrl2  = environment.apiUrl + "/cartSize";
 
   constructor(private http: HttpClient){}
 
