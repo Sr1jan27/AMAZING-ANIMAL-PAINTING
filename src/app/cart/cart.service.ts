@@ -11,6 +11,9 @@ export class CartService {
 
   private apiUrl  = environment.apiUrl + "/cart";
 
+  
+  private apiUrl1  = environment.apiUrl + "/cartName";
+
   constructor(private http: HttpClient){}
 
   addToCart(product: Product): Observable<Product> {
