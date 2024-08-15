@@ -22,4 +22,6 @@ export class CartModule {
 
   // A function to add two numbers in java 
 
+  // log.console("Here')
+
 }
